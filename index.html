@@ -2,36 +2,44 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Google</title>
     </head>
     <body>
         <header>
             <div class="topnav">
                 <a href="about">About</a>
-                <a href="products">Products</a>
-                <a href="gmail">Gmail</a>
-                <a href="images">Images</a>
-                <input type="button" id="sign-in" value="Sign In">
+                <a href="products" style=>Products</a>
+                <div class="topnav-right">
+                    <a href="gmail">Gmail</a>
+                    <a href="images">Images</a>
+                    <a href="sign-in" id="sign-in">Sign In</a>
+                </div>    
             </div>
         </header>
-        <div>
-            <img src="images/google-logo.png" id="logo" title="google-logo" alt="google logo">
+        <main>
+            <div class="logo">
+                <img src="images/google-logo.png" class="logo-image" title="google-logo" alt="google logo">
 
-        </div>
-        <div>
-            <form>
-                <input type="text" class="search-bar"><br>
-                <input type="button" class="search-button" value="Google Search">
-                <input type="button" class="search-button" value="I'm feeling lucky">
-            </form>
-        </div>
-        <footer>
+            </div>
+            <div class="search-form">
+                <form>
+                    <input type="text" class="search-bar"><br>
+                    <input type="button" class="search-button" value="Google Search">
+                    <input type="button" class="search-button" value="I'm feeling lucky">
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
             <div class="bottomnav">
                 <a href="advertising">Advertising</a>
                 <a href="business">Business</a>
                 <a href="how-to">How search works</a>
-                <a href="privacy">Privacy</a>
-                <a href="terms">Terms</a>
-                <a href="settings">Settings</a>
+                <div class="bottomnav-right">
+                    <a href="privacy">Privacy</a>
+                    <a href="terms">Terms</a>
+                    <a href="settings">Settings</a>
+                </div>
             </div>
         </footer>
     </body>

@@ -1,0 +1,75 @@
+.topnav {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.88);
+}
+.topnav a {
+    color: rgba(0, 0, 0, 0.88);
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.topnav-right{
+    float: right;
+}
+.bottomnav {
+    color: rgba(0, 0, 0, 0.88);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(242, 242, 242);
+    border-top-color: rgb(228, 228, 228);
+    border-top-width: 0.9px;
+    bottom: 0;
+    width: 100%;
+
+}
+.bottomnav a {
+    color: rgba(0, 0, 0, 0.88);
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.bottomnav-right {
+    float: right;
+}
+.logo {
+    display: flex;
+    margin: 15% auto 0 auto;
+    width: 50%;
+    justify-content: center;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 15% auto;
+    width: 40%;
+}
+.search-bar {
+    display: flex;
+    width: 100%;
+    background: white;
+    height: 50%;
+    border-radius: 50px;   
+}
+.search-button {
+    background-color: rgb(242, 242, 242);
+    border-bottom-color: rgb(242, 242, 242);
+    border-bottom-width: 0.9px;
+    border-right-color: rgb(242, 242, 242);
+    border-right-width: 0.9px;
+    border-top-color: rgb(242, 242, 242);
+    border-top-width: 0.9px;
+    border-left-color: rgb(242, 242, 242);
+    border-left-width: 0.9px;
+    color: rgb(95, 99, 104);
+    height: 35px;
+    line-height: 27px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    
+}
