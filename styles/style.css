@@ -1,3 +1,19 @@
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .topnav {
+        font-size: 3.5vw;
+    }
+    .bottomnav {
+        font-size: 1.5vw
+    }
+    .search-bar {
+           
+    }
+}
+
+
 .topnav {
     overflow: hidden;
     font-family: Arial, sans-serif;
@@ -12,6 +28,18 @@
 }
 .topnav-right{
     float: right;
+}
+#sign-in {
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.9px;
+    border-bottom-color: rgb(66, 133, 244);
+    border-left-color: rgb(66, 133, 244);
+    background-image: -moz-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
 }
 .bottomnav {
     color: rgba(0, 0, 0, 0.88);
